@@ -1,0 +1,27 @@
+//Q7: Write a program to swap two numbers without using a third variable.//
+#include <stdio.h>
+int main()
+{
+int a;
+int b;
+printf("Enter a \n");
+scanf("%d", &a);
+printf("Enter b \n");
+scanf("%d", &b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("After swapping: a=%d, b=%d \n", a, b);
+return 0;
+}
+
+//Q8: Write a program to find and display the sum of the first n natural numbers.//
+#include <stdio.h>
+int main()
+{
+int n;
+printf("Enter n \n");
+scanf("%d", &n);
+printf("Sum of first n natural numbers is %d \n", n*(n+1)/2);
+return 0;
+}
