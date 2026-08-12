@@ -1,0 +1,28 @@
+//Q5: Write a program to convert temperature from Celsius to Fahrenheit.//
+#include <stdio.h>
+int main()
+{
+float temperature;
+printf("Enter temperature in Celcius \n");
+scanf("%f", &temperature);
+printf("Temperature in Kelvin is %f \n", (temperature*1.8)+32);
+return 0;
+}
+
+//Q6: Write a program to swap two numbers using a third variable.//
+#include <stdio.h>
+int main()
+{
+int a;
+int b;
+int c;
+printf("Enter a \n");
+scanf("%d", &a);
+printf("Enter b \n");
+scanf("%d", &b);
+c=a;
+a=b;
+b=c;
+printf("After swapping: a=%d, b=%d \n", a, b);
+return 0;
+}
