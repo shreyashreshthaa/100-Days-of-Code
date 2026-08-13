@@ -14,4 +14,3 @@ scanf("%d",&c);
 printf("The sum of %d and %d is %d", a,b,c);
 return 0;
 }
-
